@@ -31,7 +31,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    /**
+     *  提示正在加载
+     */
+    [DKXStatusBarHUD showLoading:@"正在加载"];
 }
 
 - (void)didReceiveMemoryWarning {
