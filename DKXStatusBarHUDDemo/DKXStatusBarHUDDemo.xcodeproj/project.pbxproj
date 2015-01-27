@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187E6B001A77AF9E00259101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E6AFF1A77AF9E00259101 /* main.m */; };
+		187E6B031A77AF9E00259101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E6B021A77AF9E00259101 /* AppDelegate.m */; };
+		187E6B061A77AF9E00259101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E6B051A77AF9E00259101 /* ViewController.m */; };
+		187E6B091A77AF9E00259101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E6B071A77AF9E00259101 /* Main.storyboard */; };
+		187E6B0B1A77AF9E00259101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187E6B0A1A77AF9E00259101 /* Images.xcassets */; };
+		187E6B0E1A77AF9E00259101 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E6B0C1A77AF9E00259101 /* LaunchScreen.xib */; };
+		187E6B1A1A77AF9E00259101 /* DKXStatusBarHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E6B191A77AF9E00259101 /* DKXStatusBarHUDDemoTests.m */; };
+		187E6B271A77AFAE00259101 /* DKXStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 187E6B241A77AFAE00259101 /* DKXStatusBarHUD.bundle */; };
+		187E6B281A77AFAE00259101 /* DKXStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E6B261A77AFAE00259101 /* DKXStatusBarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187E6B141A77AF9E00259101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187E6AF21A77AF9E00259101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187E6AF91A77AF9E00259101;
+			remoteInfo = DKXStatusBarHUDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187E6AFA1A77AF9E00259101 /* DKXStatusBarHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKXStatusBarHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E6AFE1A77AF9E00259101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187E6AFF1A77AF9E00259101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187E6B011A77AF9E00259101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187E6B021A77AF9E00259101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187E6B041A77AF9E00259101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187E6B051A77AF9E00259101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187E6B081A77AF9E00259101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187E6B0A1A77AF9E00259101 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		187E6B0D1A77AF9E00259101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		187E6B131A77AF9E00259101 /* DKXStatusBarHUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKXStatusBarHUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E6B181A77AF9E00259101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187E6B191A77AF9E00259101 /* DKXStatusBarHUDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKXStatusBarHUDDemoTests.m; sourceTree = "<group>"; };
+		187E6B241A77AFAE00259101 /* DKXStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DKXStatusBarHUD.bundle; sourceTree = "<group>"; };
+		187E6B251A77AFAE00259101 /* DKXStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKXStatusBarHUD.h; sourceTree = "<group>"; };
+		187E6B261A77AFAE00259101 /* DKXStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKXStatusBarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187E6AF71A77AF9E00259101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E6B101A77AF9E00259101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187E6AF11A77AF9E00259101 = {
+			isa = PBXGroup;
+			children = (
+				187E6AFC1A77AF9E00259101 /* DKXStatusBarHUDDemo */,
+				187E6B161A77AF9E00259101 /* DKXStatusBarHUDDemoTests */,
+				187E6AFB1A77AF9E00259101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187E6AFB1A77AF9E00259101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187E6AFA1A77AF9E00259101 /* DKXStatusBarHUDDemo.app */,
+				187E6B131A77AF9E00259101 /* DKXStatusBarHUDDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187E6AFC1A77AF9E00259101 /* DKXStatusBarHUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				187E6B231A77AFAE00259101 /* DKXStatusBarHUD */,
+				187E6B011A77AF9E00259101 /* AppDelegate.h */,
+				187E6B021A77AF9E00259101 /* AppDelegate.m */,
+				187E6B041A77AF9E00259101 /* ViewController.h */,
+				187E6B051A77AF9E00259101 /* ViewController.m */,
+				187E6B071A77AF9E00259101 /* Main.storyboard */,
+				187E6B0A1A77AF9E00259101 /* Images.xcassets */,
+				187E6B0C1A77AF9E00259101 /* LaunchScreen.xib */,
+				187E6AFD1A77AF9E00259101 /* Supporting Files */,
+			);
+			path = DKXStatusBarHUDDemo;
+			sourceTree = "<group>";
+		};
+		187E6AFD1A77AF9E00259101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187E6AFE1A77AF9E00259101 /* Info.plist */,
+				187E6AFF1A77AF9E00259101 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187E6B161A77AF9E00259101 /* DKXStatusBarHUDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				187E6B191A77AF9E00259101 /* DKXStatusBarHUDDemoTests.m */,
+				187E6B171A77AF9E00259101 /* Supporting Files */,
+			);
+			path = DKXStatusBarHUDDemoTests;
+			sourceTree = "<group>";
+		};
+		187E6B171A77AF9E00259101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187E6B181A77AF9E00259101 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187E6B231A77AFAE00259101 /* DKXStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				187E6B241A77AFAE00259101 /* DKXStatusBarHUD.bundle */,
+				187E6B251A77AFAE00259101 /* DKXStatusBarHUD.h */,
+				187E6B261A77AFAE00259101 /* DKXStatusBarHUD.m */,
+			);
+			path = DKXStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187E6AF91A77AF9E00259101 /* DKXStatusBarHUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E6B1D1A77AF9E00259101 /* Build configuration list for PBXNativeTarget "DKXStatusBarHUDDemo" */;
+			buildPhases = (
+				187E6AF61A77AF9E00259101 /* Sources */,
+				187E6AF71A77AF9E00259101 /* Frameworks */,
+				187E6AF81A77AF9E00259101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKXStatusBarHUDDemo;
+			productName = DKXStatusBarHUDDemo;
+			productReference = 187E6AFA1A77AF9E00259101 /* DKXStatusBarHUDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187E6B121A77AF9E00259101 /* DKXStatusBarHUDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E6B201A77AF9E00259101 /* Build configuration list for PBXNativeTarget "DKXStatusBarHUDDemoTests" */;
+			buildPhases = (
+				187E6B0F1A77AF9E00259101 /* Sources */,
+				187E6B101A77AF9E00259101 /* Frameworks */,
+				187E6B111A77AF9E00259101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187E6B151A77AF9E00259101 /* PBXTargetDependency */,
+			);
+			name = DKXStatusBarHUDDemoTests;
+			productName = DKXStatusBarHUDDemoTests;
+			productReference = 187E6B131A77AF9E00259101 /* DKXStatusBarHUDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187E6AF21A77AF9E00259101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					187E6AF91A77AF9E00259101 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					187E6B121A77AF9E00259101 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 187E6AF91A77AF9E00259101;
+					};
+				};
+			};
+			buildConfigurationList = 187E6AF51A77AF9E00259101 /* Build configuration list for PBXProject "DKXStatusBarHUDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187E6AF11A77AF9E00259101;
+			productRefGroup = 187E6AFB1A77AF9E00259101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187E6AF91A77AF9E00259101 /* DKXStatusBarHUDDemo */,
+				187E6B121A77AF9E00259101 /* DKXStatusBarHUDDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187E6AF81A77AF9E00259101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E6B091A77AF9E00259101 /* Main.storyboard in Resources */,
+				187E6B0E1A77AF9E00259101 /* LaunchScreen.xib in Resources */,
+				187E6B0B1A77AF9E00259101 /* Images.xcassets in Resources */,
+				187E6B271A77AFAE00259101 /* DKXStatusBarHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E6B111A77AF9E00259101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187E6AF61A77AF9E00259101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E6B061A77AF9E00259101 /* ViewController.m in Sources */,
+				187E6B281A77AFAE00259101 /* DKXStatusBarHUD.m in Sources */,
+				187E6B031A77AF9E00259101 /* AppDelegate.m in Sources */,
+				187E6B001A77AF9E00259101 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E6B0F1A77AF9E00259101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E6B1A1A77AF9E00259101 /* DKXStatusBarHUDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187E6B151A77AF9E00259101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187E6AF91A77AF9E00259101 /* DKXStatusBarHUDDemo */;
+			targetProxy = 187E6B141A77AF9E00259101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187E6B071A77AF9E00259101 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187E6B081A77AF9E00259101 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187E6B0C1A77AF9E00259101 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187E6B0D1A77AF9E00259101 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187E6B1B1A77AF9E00259101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187E6B1C1A77AF9E00259101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187E6B1E1A77AF9E00259101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKXStatusBarHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187E6B1F1A77AF9E00259101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKXStatusBarHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187E6B211A77AF9E00259101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DKXStatusBarHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKXStatusBarHUDDemo.app/DKXStatusBarHUDDemo";
+			};
+			name = Debug;
+		};
+		187E6B221A77AF9E00259101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DKXStatusBarHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKXStatusBarHUDDemo.app/DKXStatusBarHUDDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187E6AF51A77AF9E00259101 /* Build configuration list for PBXProject "DKXStatusBarHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E6B1B1A77AF9E00259101 /* Debug */,
+				187E6B1C1A77AF9E00259101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187E6B1D1A77AF9E00259101 /* Build configuration list for PBXNativeTarget "DKXStatusBarHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E6B1E1A77AF9E00259101 /* Debug */,
+				187E6B1F1A77AF9E00259101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187E6B201A77AF9E00259101 /* Build configuration list for PBXNativeTarget "DKXStatusBarHUDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E6B211A77AF9E00259101 /* Debug */,
+				187E6B221A77AF9E00259101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187E6AF21A77AF9E00259101 /* Project object */;
+}
