@@ -30,7 +30,7 @@
 /**
  *  全局变量
  */
-UIWindow *_window;
+static const UIWindow *_window;
 
 /**
  *  显示信息
